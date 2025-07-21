@@ -1,4 +1,4 @@
-export default function FullWidthPageLayout({
+ export default function FullWidthPageLayout({
   children,
 }: {
   children: React.ReactNode;
