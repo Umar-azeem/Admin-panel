@@ -12,7 +12,6 @@ type SidebarContextType = {
   setActiveItem: (item: string | null) => void;
   toggleSubmenu: (item: string) => void;
 };
-
 const SidebarContext = createContext<SidebarContextType | undefined>(undefined);
 
 export const useSidebar = () => {
